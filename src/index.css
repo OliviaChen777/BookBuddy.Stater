@@ -1,13 +1,53 @@
-body {
-  font-family: Georgia, serif;
-  background-color: #f8f8f8;
+body, html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-#logo-image {
-  width: 30px;
-  margin-right: 10px;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  z-index: 1000; /* 确保它总是显示在页面最上层 */
 }
 
-/* Add your own custom styles here */
+.book-list {
+  margin-top: 60px; /* 确保书籍列表有足够的顶部空间 */
+}
+
+.book-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-image {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.book-info {
+  flex: 1;
+}
+
+.book-info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+}
+
+.book-info p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.book-reservation {
+  margin-top: 10px;
+}
+body {
+  padding-top: 80px; 
+}

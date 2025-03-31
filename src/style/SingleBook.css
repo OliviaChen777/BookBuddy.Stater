@@ -1,0 +1,76 @@
+
+.single-book-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .single-book-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .book-image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .book-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details {
+    width: 55%;
+    padding-left: 20px;
+  }
+  
+  .book-details h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .book-details h2 {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .book-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .reserve-btn {
+    padding: 12px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .unavailable-message {
+    font-size: 1.1rem;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
